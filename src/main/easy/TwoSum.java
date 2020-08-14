@@ -26,4 +26,9 @@ public class TwoSum {
         }
         return result;
     }
+
+    /*
+        Runtime: 59 ms
+        Memory Usage: 40 MB
+    */
 }
