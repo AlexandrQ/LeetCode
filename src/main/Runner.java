@@ -5,8 +5,11 @@ import main.easy.*;
 public class Runner {
     public static void main(String[] args){
         //Insert code here
-        LongestCommonPrefix obj = new LongestCommonPrefix();
-        String[] strs = {"abab","aba", ""};
-        System.out.println(obj.longestCommonPrefix(strs));
+        ValidParentheses obj = new ValidParentheses();
+        System.out.println(obj.isValid("()"));
+        System.out.println(obj.isValid("()[]{}"));
+        System.out.println(obj.isValid("(]"));
+        System.out.println(obj.isValid("([)]"));
+        System.out.println(obj.isValid("{[]}"));
     }
 }
