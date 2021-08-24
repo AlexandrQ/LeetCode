@@ -30,7 +30,6 @@ package main.easy;
         haystack and needle consist of only lower-case English characters.
     */
 
-import java.util.*;
 
 public class ImplementStrStr {
     public int strStr(String haystack, String needle) {
