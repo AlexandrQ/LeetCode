@@ -7,12 +7,13 @@ import java.util.Arrays;
 public class Runner {
     public static void main(String[] args){
         //Insert code here
-        PlusOne obj = new PlusOne();
-        System.out.println(Arrays.toString(obj.plusOne(new int[] { 1, 2, 3 })));
-        System.out.println(Arrays.toString(obj.plusOne(new int[] { 4,3,2,1 })));
-        System.out.println(Arrays.toString(obj.plusOne(new int[] { 0 })));
-        System.out.println(Arrays.toString(obj.plusOne(new int[] { 9 })));
-        System.out.println(Arrays.toString(obj.plusOne(new int[] { 9, 9, 9 })));
+        AddBinary obj = new AddBinary();
+        System.out.println(obj.addBinary("11", "1"));
+        System.out.println(obj.addBinary("1010", "1011"));
+        System.out.println(obj.addBinary("0", "0"));
+        System.out.println(obj.addBinary("0", "1"));
+        System.out.println(obj.addBinary("1", "1"));
+
 
 
         /*System.out.println(obj.maxSubArray(new int[] { -2,1,-3,4,-1,2,1,-5,4 }));
