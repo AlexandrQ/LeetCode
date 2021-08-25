@@ -7,12 +7,13 @@ import java.util.Arrays;
 public class Runner {
     public static void main(String[] args){
         //Insert code here
-        AddBinary obj = new AddBinary();
-        System.out.println(obj.addBinary("11", "1"));
-        System.out.println(obj.addBinary("1010", "1011"));
-        System.out.println(obj.addBinary("0", "0"));
-        System.out.println(obj.addBinary("0", "1"));
-        System.out.println(obj.addBinary("1", "1"));
+        Sqrtx obj = new Sqrtx();
+        /*System.out.println(obj.mySqrt(4));
+        System.out.println(obj.mySqrt(8));
+        System.out.println(obj.mySqrt(0));
+        System.out.println(obj.mySqrt(2));*/
+        System.out.println(obj.mySqrt(2147483647));
+        /*System.out.println(obj.mySqrt(2147395599));*/
 
 
 
