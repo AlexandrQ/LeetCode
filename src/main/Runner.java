@@ -7,13 +7,18 @@ import java.util.Arrays;
 public class Runner {
     public static void main(String[] args){
         //Insert code here
-        Sqrtx obj = new Sqrtx();
-        /*System.out.println(obj.mySqrt(4));
-        System.out.println(obj.mySqrt(8));
-        System.out.println(obj.mySqrt(0));
-        System.out.println(obj.mySqrt(2));*/
-        System.out.println(obj.mySqrt(2147483647));
-        /*System.out.println(obj.mySqrt(2147395599));*/
+        ClimbingStairs obj = new ClimbingStairs();
+
+        /*System.out.println(obj.climbStairs(1));
+        System.out.println(obj.climbStairs(2));
+        System.out.println(obj.climbStairs(3));
+
+        System.out.println(obj.climbStairs(5));
+        System.out.println(obj.climbStairs(6));
+        System.out.println(obj.climbStairs(7));
+        System.out.println(obj.climbStairs(8));*/
+
+        System.out.println(obj.climbStairs(35));
 
 
 
