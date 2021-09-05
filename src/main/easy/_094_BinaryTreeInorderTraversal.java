@@ -3,20 +3,33 @@ package main.easy;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+    Given the root of a binary tree, return the inorder traversal of its nodes' values.
+
+    Constraints:
+    The number of nodes in the tree is in the range [0, 100].
+    -100 <= Node.val <= 100
+
+    Follow up: Recursive solution is trivial, could you do it iteratively?
+*/
+
 public class _094_BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> resilt = new ArrayList<>(0);
-        testM(root, resilt);
-        return resilt;
+        List<Integer> result = new ArrayList<>();
+        if(root == null) {
+            return result;
+        }
+        stepInNode(root, result);
+        return result;
     }
 
-    private void testM(TreeNode root, List<Integer> resilt) {
+    private void stepInNode(TreeNode root, List<Integer> result) {
         if(root.left != null) {
-            testM(root.left, resilt);
+            stepInNode(root.left, result);
         }
-        resilt.add(root.val);
+        result.add(root.val);
         if(root.right != null) {
-            testM(root.right, resilt);
+            stepInNode(root.right, result);
         }
     }
 
