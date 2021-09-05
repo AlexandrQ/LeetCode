@@ -28,7 +28,7 @@ package main.easy;
     There will be at least one word in s.
 */
 
-public class LengthOfLastWord {
+public class _058_LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         /*String[] words = s.split(" ");
         return words[words.length - 1].length();*/

@@ -30,7 +30,7 @@ package main.easy;
 
 import java.util.*;
 
-public class ValidParentheses {
+public class _020_ValidParentheses {
     public static final Map<Character, Character> parentheses = new HashMap<>(3);
     {
         parentheses.put(')', '(');

@@ -18,7 +18,7 @@ package main.easy;
     Follow up: Could you solve it without converting the integer to a string?
 */
 
-public class PalindromeNumber {
+public class _009_PalindromeNumber {
 
 
     private final int INT_SIZE_LIMIT = 10;

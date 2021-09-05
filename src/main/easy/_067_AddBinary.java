@@ -19,7 +19,7 @@ package main.easy;
     Each string does not contain leading zeros except for the zero itself.
 */
 
-public class AddBinary {
+public class _067_AddBinary {
     public String addBinary(String a, String b) {
         final char ZERO_CHAR = '0';
         final char ONE_CHAR = '1';

@@ -8,7 +8,7 @@ public class Runner {
     public static void main(String[] args){
         //Insert code here
 
-        MergeSortedArray obj = new MergeSortedArray();
+        _088_MergeSortedArray obj = new _088_MergeSortedArray();
         System.out.println(Arrays.toString(obj.merge(new int[] { 4, 5, 6, 0, 0, 0 }, 3, new int[] { 1, 2, 3 }, 3)));
         System.out.println(Arrays.toString(obj.merge(new int[] { 1, 2, 3, 0, 0, 0 }, 3, new int[] { 2, 5, 6 }, 3)));
 

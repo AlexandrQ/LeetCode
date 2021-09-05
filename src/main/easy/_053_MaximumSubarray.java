@@ -27,7 +27,7 @@ package main.easy;
     Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 */
 
-public class MaximumSubarray {
+public class _053_MaximumSubarray {
     public int maxSubArray(int[] nums) {
         int max = nums[0];
         int sum = 0;

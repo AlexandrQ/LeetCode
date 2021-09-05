@@ -19,7 +19,7 @@ package main.easy;
     All given inputs are in lowercase letters a-z.
 */
 
-public class LongestCommonPrefix {
+public class _014_LongestCommonPrefix {
 
     public String longestCommonPrefix(String[] strs) {
         if(strs.length == 0) {

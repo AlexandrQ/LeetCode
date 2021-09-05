@@ -3,7 +3,7 @@ package main.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTreeInorderTraversal {
+public class _094_BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> resilt = new ArrayList<>(0);
         testM(root, resilt);

@@ -35,7 +35,7 @@ Given a sorted array nums, remove the duplicates in-place such that each element
         Explanation: Your function should return length = 5, with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively. It doesn't matter what values are set beyond the returned length.
 */
 
-public class RemoveDuplicatesInSortedArr {
+public class _026_RemoveDuplicatesInSortedArr {
     public int removeDuplicates(int[] nums) {
         if(nums.length == 0) {
             return 0;

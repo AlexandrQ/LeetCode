@@ -31,7 +31,7 @@ package main.easy;
     */
 
 
-public class ImplementStrStr {
+public class _028_ImplementStrStr {
     public int strStr(String haystack, String needle) {
         char[] arr1 = haystack.toCharArray();
         char[] arr2 = needle.toCharArray();

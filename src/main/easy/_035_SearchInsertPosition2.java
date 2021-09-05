@@ -1,6 +1,6 @@
 package main.easy;
 
-public class SearchInsertPosition2 {
+public class _035_SearchInsertPosition2 {
     public int searchInsert(int[] nums, int target) {
         int length = nums.length;
         int left = 0;

@@ -28,7 +28,7 @@ package main.easy;
 
 import java.math.BigInteger;
 
-public class ClimbingStairs {
+public class _070_ClimbingStairs {
     public int climbStairs(int n) {
         int countOne = n%2;
         int countTwo = n/2;

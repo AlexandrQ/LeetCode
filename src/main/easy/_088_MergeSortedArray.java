@@ -42,7 +42,7 @@ package main.easy;
     Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 */
 
-public class MergeSortedArray {
+public class _088_MergeSortedArray {
     public int[] merge(int[] nums1, int m, int[] nums2, int n) {
         if(m == 0) {
             for(int i = 0; i < nums1.length; i++) {

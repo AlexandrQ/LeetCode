@@ -13,7 +13,7 @@ package main.easy;
     return [0, 1].
 */
 
-public class TwoSum {
+public class _001_TwoSum {
 
     public int[] easyWay(int[] nums, int target) {
         int[] result = {0, 0};

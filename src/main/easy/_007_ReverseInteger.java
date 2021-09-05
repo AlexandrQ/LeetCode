@@ -19,7 +19,7 @@ package main.easy;
     function returns 0 when the reversed integer overflows.
 */
 
-public class ReverseInteger {
+public class _007_ReverseInteger {
 
     final int INT_RIGHT_LIMIT = 2147483647;
     final int INT_LEFT_LIMIT = -2147483648;

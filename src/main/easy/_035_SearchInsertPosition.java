@@ -35,7 +35,7 @@ package main.easy;
     -104 <= target <= 104
 */
 
-public class SearchInsertPosition {
+public class _035_SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         if(nums.length == 1) {
             return nums[0] == target ? 0 : target < nums[0] ? 0 : 1;

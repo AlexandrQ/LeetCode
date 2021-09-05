@@ -25,7 +25,7 @@ package main.easy;
     0 <= x <= 231 - 1
 */
 
-public class Sqrtx {
+public class _069_Sqrtx {
     final int limit = 46341;
     public int mySqrt(int x) {
         int num = 0;

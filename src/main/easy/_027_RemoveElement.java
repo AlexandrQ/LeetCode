@@ -44,7 +44,7 @@ package main.easy;
     0 <= val <= 100
 */
 
-public class RemoveElement {
+public class _027_RemoveElement {
     public int removeElement(int[] nums, int val) {
         int count = 0;
         boolean needToShift = false;

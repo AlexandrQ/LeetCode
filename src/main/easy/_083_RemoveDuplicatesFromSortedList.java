@@ -18,7 +18,7 @@ package main.easy;
     The list is guaranteed to be sorted in ascending order.
 */
 
-public class RemoveDuplicatesFromSortedList {
+public class _083_RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null) {
             return null;

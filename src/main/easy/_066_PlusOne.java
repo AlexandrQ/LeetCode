@@ -28,7 +28,7 @@ package main.easy;
     0 <= digits[i] <= 9
 */
 
-public class PlusOne {
+public class _066_PlusOne {
     public int[] plusOne(int[] digits) {
         int count = 0;
         for(int i = digits.length - 1; i >= 0; i--) {
