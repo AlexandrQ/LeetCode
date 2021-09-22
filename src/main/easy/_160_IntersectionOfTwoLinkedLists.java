@@ -52,19 +52,16 @@ package main.easy;
 
 public class _160_IntersectionOfTwoLinkedLists {
 
-    private int lengthOne;
-    private int lenghtTwo;
-
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA == null || headB == null) {
             return null;
         }
-        lengthOne = getLength(headA);
-        lenghtTwo = getLength(headB);
-        if(lengthOne > lenghtTwo) {
-            return getResult(headA, headB, lengthOne - lenghtTwo);
+        int lengthOne = getLength(headA);
+        int lengthTwo = getLength(headB);
+        if(lengthOne > lengthTwo) {
+            return getResult(headA, headB, lengthOne - lengthTwo);
         } else {
-            return getResult(headB, headA, lenghtTwo - lengthOne);
+            return getResult(headB, headA, lengthTwo - lengthOne);
         }
     }
 
