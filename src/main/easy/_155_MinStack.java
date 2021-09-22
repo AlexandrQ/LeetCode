@@ -48,7 +48,6 @@ public class _155_MinStack {
         }
 
         public void push(int val) {
-            Integer.MAX_VALUE;
             if(this.head == null) {
                 head = new StackNode(val);
             } else {
