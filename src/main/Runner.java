@@ -1,8 +1,6 @@
 package main;
 
-import main.easy.*;
-
-import java.util.Arrays;
+import main.java.easy.*;
 
 public class Runner {
     public static void main(String[] args){
