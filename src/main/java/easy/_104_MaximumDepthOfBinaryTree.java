@@ -27,6 +27,8 @@ package main.java.easy;
     -100 <= Node.val <= 100
 */
 
+import main.java.TreeNode;
+
 public class _104_MaximumDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {
         return getDepth(root);

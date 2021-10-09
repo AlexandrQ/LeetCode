@@ -11,6 +11,8 @@ package main.java.easy;
     -104 <= Node.val <= 104
 */
 
+import main.java.TreeNode;
+
 public class _100_SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null) {

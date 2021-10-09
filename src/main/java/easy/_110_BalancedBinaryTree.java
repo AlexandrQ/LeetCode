@@ -13,6 +13,8 @@ package main.java.easy;
     -104 <= Node.val <= 104
 */
 
+import main.java.TreeNode;
+
 public class _110_BalancedBinaryTree {
     private boolean isBalanced = true;
     public boolean isBalanced(TreeNode root) {

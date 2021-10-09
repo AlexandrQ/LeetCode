@@ -11,6 +11,8 @@ package main.java.easy;
     nums is sorted in a strictly increasing order.
 */
 
+import main.java.TreeNode;
+
 public class _108_ConvertSortedArrayToBinarySearchTree {
 
     class Solution {

@@ -15,6 +15,8 @@ package main.java.easy;
     Follow up: Can you solve it using O(1) (i.e. constant) memory?
 */
 
+import main.java.ListNode;
+
 public class _141_LinkedListCycle {
     final int stop_num = 10000000;
     public boolean hasCycle(ListNode head) {

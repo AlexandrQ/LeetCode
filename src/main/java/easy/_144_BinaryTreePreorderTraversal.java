@@ -24,6 +24,8 @@ package main.java.easy;
     Follow up: Recursive solution is trivial, could you do it iteratively?
 */
 
+import main.java.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

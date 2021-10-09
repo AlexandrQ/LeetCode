@@ -6,6 +6,8 @@ package main.java.easy;
     A leaf is a node with no children.
 */
 
+import main.java.TreeNode;
+
 public class _112_PathSum {
     private boolean result = false;
     public boolean hasPathSum(TreeNode root, int targetSum) {

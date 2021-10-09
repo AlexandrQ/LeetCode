@@ -8,6 +8,8 @@ package main.java.easy;
     Note: A leaf is a node with no children.
 */
 
+import main.java.TreeNode;
+
 public class _111_MinimumDepthOfBinaryTree {
     public int minDepth(TreeNode root) {
         if(root == null) {

@@ -1,5 +1,7 @@
 package main.java.easy;
 
+import main.java.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

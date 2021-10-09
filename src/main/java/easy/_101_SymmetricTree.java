@@ -10,6 +10,8 @@ package main.java.easy;
     Follow up: Could you solve it both recursively and iteratively?
 */
 
+import main.java.TreeNode;
+
 public class _101_SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         return compareNodes(root.left, root.right);

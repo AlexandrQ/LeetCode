@@ -50,6 +50,8 @@ package main.java.easy;
     Follow up: Could you write a solution that runs in O(n) time and use only O(1) memory?
 */
 
+import main.java.ListNode;
+
 public class _160_IntersectionOfTwoLinkedLists {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

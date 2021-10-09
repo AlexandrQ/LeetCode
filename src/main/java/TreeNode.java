@@ -1,4 +1,4 @@
-package main.java.easy;
+package main.java;
 
 public class TreeNode {
     public int val;
