@@ -56,9 +56,30 @@ public class _121_BestTimeToBuyAndSelLStock {
         }
         return maxProfit;
     }
+
+    public int maxProfit2(int[] prices) {
+        int maxProfit = 0;
+        int min = prices[0];
+        int max = prices[0];
+        for(int i = 1; i < prices.length; i++) {
+            if(prices[i] < min) {
+                min = prices[i];
+                max = prices[i];
+            } else  if(min < prices[i] && max < prices[i]){
+                max = prices[i];
+                maxProfit = Math.max(maxProfit, max - min);
+            }
+        }
+        return maxProfit;
+    }
 }
 
-/*
+/* maxProfit
     Runtime: 7 ms, faster than 6.93% of Java online submissions for Best Time to Buy and Sell Stock.
     Memory Usage: 52 MB, less than 80.60% of Java online submissions for Best Time to Buy and Sell Stock.
+*/
+
+/* maxProfit2
+    Runtime: 2 ms, faster than 73.44% of Java online submissions for Best Time to Buy and Sell Stock.
+    Memory Usage: 52.3 MB, less than 51.52% of Java online submissions for Best Time to Buy and Sell Stock.
 */
