@@ -11,14 +11,11 @@ public class Runner {
     public static void main(String[] args){
         //Insert code here
 
-        var obj = new _15_3Sum();
-        //System.out.println(obj.reverseBits(00000010100101000001111010011100));
-        //System.out.println(obj.reverseBits(43261596));
-        //System.out.println(obj.longestPalindrome("babad"));
-       // System.out.println(obj.intToRoman(3));
-        //System.out.println(obj.intToRoman(5));
-        //System.out.println(obj.intToRoman(58));
-        System.out.println(obj.threeSum(new int[] { 0,0,0 }));
+        var obj = new _16_3SumClosest();
+        /*System.out.println(obj.threeSumClosest(new int[] { -1,2,1,-4 }, 1));
+        System.out.println(obj.threeSumClosest(new int[] { 0,0,0 }, 1));
+        System.out.println(obj.threeSumClosest(new int[] { 1,1,-1,-1,3 }, -1));*/
+        System.out.println(obj.threeSumClosest(new int[] { -1,0,1,1,55 }, 3));
 
 
 
