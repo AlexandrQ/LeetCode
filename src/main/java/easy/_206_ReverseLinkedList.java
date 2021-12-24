@@ -38,3 +38,8 @@ public class _206_ReverseLinkedList {
         return setNext(current, savedOldNext);
     }
 }
+
+/*
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for Reverse Linked List.
+    Memory Usage: 39 MB, less than 41.89% of Java online submissions for Reverse Linked List.
+*/
